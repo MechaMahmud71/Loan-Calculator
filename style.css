@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background: white;
+  margin-top: 100px;
+
+  width: 600px;
+  border-radius: 5px;
+  position: relative;
+}
+.uppur {
+  padding: 30px 15px;
+}
+.lower {
+  padding: 20px 15px;
+  padding-top: 0px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 17px 0px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+.uppur div,
+.lower div {
+  margin-top: 10px;
+}
+.amount,
+.percent,
+.payment {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+#time {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#money,
+#interest,
+.output_payment,
+.output_payment_total,
+.output_interest {
+  padding: 15px;
+  border: none;
+}
+label {
+  padding: 15px 20px;
+  background: lightgrey;
+  clear: both;
+}
+#money,
+#interest,
+.output_payment,
+.output_payment_total,
+.output_interest {
+  width: 100%;
+}
+#time:focus::placeholder {
+  color: transparent;
+}
+#money:focus::placeholder {
+  color: transparent;
+}
+#interest:focus::placeholder {
+  color: transparent;
+}
+.lower div {
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+.payment input {
+  background: #ccc;
+}
+img {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lower {
+  display: none;
+}
